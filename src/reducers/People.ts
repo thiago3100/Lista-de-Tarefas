@@ -33,7 +33,7 @@ const reducer = (state: Tasks[], action: ActionPersons) => {
                     return newState;
              }
            break;
-           case 'ORDER':
+           case 'ORER':
                 let newState = [...state];
                 newState = newState.sort((a, b)=> (a.name > b.name) ? 1 : -1 );
                 return newState;
